@@ -2,12 +2,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Demo JSP Project-1</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Hello!" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<form action="name" method="post">
+    Enter your name:
+    <input type = "text" name = "name">
+    <input type = "submit">
+</form>
 </body>
 </html>
